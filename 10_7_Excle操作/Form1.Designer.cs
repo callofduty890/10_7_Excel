@@ -49,6 +49,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
@@ -117,6 +118,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 33);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "1";
             // 
             // textBox2
             // 
@@ -124,6 +126,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(122, 33);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "龙傲天";
             // 
             // textBox3
             // 
@@ -131,6 +134,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(122, 33);
             this.textBox3.TabIndex = 1;
+            this.textBox3.Text = "视觉班";
             // 
             // textBox4
             // 
@@ -138,6 +142,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(122, 33);
             this.textBox4.TabIndex = 1;
+            this.textBox4.Text = "123-456";
             // 
             // button1
             // 
@@ -148,6 +153,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "增";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
@@ -158,6 +164,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "删";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -168,6 +175,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "查";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -178,6 +186,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "改";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -188,6 +197,7 @@
             this.button5.TabIndex = 2;
             this.button5.Text = "创建Excel";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 

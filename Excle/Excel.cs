@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Excle
 {
     public class Excel
@@ -44,6 +45,24 @@ namespace Excle
 
                 }
                 
+            }
+        }
+
+        public static int Upadate(string sql)
+        {
+            //1.链接Access
+            using (OleDbConnection ole_cnn= new OleDbConnection(sConnectionString))
+            {
+                //2.打开数据库
+                ole_cnn.Open();
+                //3.创建操作对象
+                using (OleDbCommand ole_cmd=ole_cnn.CreateCommand())
+                {
+                    //4.执行SQL语句
+                    ole_cmd.CommandText = sql;
+                    //5.返回受影响的行
+                    return ole_cmd.ExecuteNonQuery();
+                }
             }
         }
 
