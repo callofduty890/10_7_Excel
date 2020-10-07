@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_7_Excle操作", "10_7_Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel", "Excle\Excel.csproj", "{6F6DE577-F60C-4239-8421-DD818A6E1F1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_数据文件以及目录操作", "02_数据文件以及目录操作\02_数据文件以及目录操作.csproj", "{8E6AFF09-E4DB-4DBA-B2AE-F0EDD175DEB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6F6DE577-F60C-4239-8421-DD818A6E1F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6DE577-F60C-4239-8421-DD818A6E1F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6DE577-F60C-4239-8421-DD818A6E1F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6AFF09-E4DB-4DBA-B2AE-F0EDD175DEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6AFF09-E4DB-4DBA-B2AE-F0EDD175DEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6AFF09-E4DB-4DBA-B2AE-F0EDD175DEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6AFF09-E4DB-4DBA-B2AE-F0EDD175DEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
